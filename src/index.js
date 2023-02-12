@@ -1,6 +1,6 @@
 const {
   token
-} = require('../config.json')
+} = require('./config.json')
 const {
   Client,
   Collection,

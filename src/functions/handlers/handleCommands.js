@@ -9,7 +9,7 @@ const {
   token,
   clientId,
   testGuild
-} = require('../../../config.json')
+} = require('../../config.json')
 
 module.exports = (client) => {
   client.handleCommands = async () => {
@@ -38,20 +38,23 @@ module.exports = (client) => {
       version: "10"
     }).setToken(token)
     try {
-      console.log(`[Handler] Started refreshing (/) commands`)
+      console.log(`[Global Handler] Started refreshing (/) commands`)
 
-      await rest.put(
+      if (client.commandArrayGlobal.length >= 1) await rest.put(
         Routes.applicationCommands(clientId), {
           body: client.commandArrayGlobal
         }
       )
-      await rest.put(
+      console.log(`[Global Handler] Successfully reloaded (/) commands`)
+      console.log(`[Local Handler] Started refreshing (/) commands`)
+
+      if (client.commandArrayLocal.length >= 1) await rest.put(
         Routes.applicationCommands(clientId, testGuild), {
           body: client.commandArrayLocal
         }
       )
 
-      console.log(`[Handler] Successfully reloaded (/) commands`)
+      console.log(`[Local Handler] Successfully reloaded (/) commands`)
     } catch (error) {
       console.error(error)
     }

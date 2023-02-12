@@ -1,8 +1,3 @@
-const mongoose = require('mongoose')
-const {
-  mongoUri,
-  useMongo
-} = require('../../../config.json')
 module.exports = {
   name: 'ready',
   once: true,
