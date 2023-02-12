@@ -1,5 +1,5 @@
 {
-  "token": "MTA2MjgxNDA4NTA0NzEzNjMyNg.GJru_l.Cm_pZrR7cGbP8pMiVt8TpetIzUtptl9EOWgj8A",
-  "testGuild": "1064096731387662448",
-  "clientId": "1062814085047136326"
+  "token": "Put your bots token here", 
+  "testGuild": "Put your test server here",
+  "clientId": "Put your bots user ID here"
 }
