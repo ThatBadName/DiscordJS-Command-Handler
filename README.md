@@ -8,7 +8,7 @@ If you need any help [join our support server](https://discord.gg/c4MZpDPvKW)
 ---
 1. Clone this repo
 2. Enter your bots information in config.json:
-```
+```json
 {
   "token": "Put your bots token here", 
   "testGuild": "Put your test server here",
