@@ -1,6 +1,6 @@
 module.exports = {
   data: {
-    name: 'example-selectMenu'
+    name: 'example-selectMenu' // This is the custom ID of the select menu
   },
 
   async execute(interaction, client) {

@@ -1,6 +1,6 @@
 module.exports = {
   data: {
-    name: 'example-button'
+    name: 'example-button' // This is the custom ID of the button
   },
 
   async execute(interaction, client) {
