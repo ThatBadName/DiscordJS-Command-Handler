@@ -1,7 +1,7 @@
 # DJS-Command-Handler
 ---
-This is an advanced slash command handler made for discord.js V14. Make sure to checkout the [DJS Guide](https://discordjs.guide/) and their [docs](https://discord.js.org/)
-This handler comes pre loaded with a component handler, command handler and a few example commands.
+This is an advanced slash command handler made for discord.js V14. Make sure to checkout the [DJS Guide](https://discordjs.guide/) and their [docs](https://discord.js.org/)\
+This handler comes pre loaded with a component handler, command handler and a few example commands.\
 If you need any help [join our support server](https://discord.gg/c4MZpDPvKW)
 
 ## Usage
