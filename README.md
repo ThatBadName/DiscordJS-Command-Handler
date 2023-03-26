@@ -36,7 +36,7 @@ If you need any help [join our support server](https://discord.gg/c4MZpDPvKW)
 ## Road Map
 - [ ] Add a built in blacklist
 - [ ] Database suppport (Mongo and a file system)
-- [ ] Turn this into a npm package
+- [x] Turn this into a npm package: [GitHub](https://github.com/ThatBadName/Discord-Command-Handler) || [NPM](https://www.npmjs.com/package/@thatbadname/discord-command-handler)
 
 ## Credit
 - Some of the handler code comes from [Fusion Terror](https://www.youtube.com/@FusionTerror) however has been modified (to make upgrades) by me
